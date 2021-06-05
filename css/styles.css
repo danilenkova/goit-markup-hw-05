@@ -380,10 +380,6 @@ body {
   margin-bottom: 0;
   justify-content: center;
   width: 100%;
-  font-size: 14px;
-  line-height: 1.143;
-  text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: var(--work-list-overlay);
   color: var(--header-bg-color);
@@ -604,6 +600,7 @@ body {
 
 .portfolio .link:hover .portfolio-overlay {
   transform: translateY(0);
+  overflow: auto;
 }
 
 /* Footer */
